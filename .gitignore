@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de build
+dist/
+build/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Cache e artefatos de ferramentas
+.cache/
+.cypress_cache/
+.nyc_output/
+coverage/
+.vscode/
+
+# Cypress: resultados de testes
+cypress/screenshots/
+cypress/videos/
+
+# Arquivos temporários e backups
+*.tgz
+*.zip
+*.tmp
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outras ferramentas
+.idea/
